@@ -3,7 +3,7 @@ let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
 let body = document.getElementById("gradient");
 
-function backgroundChange () {body.style.background =
+function backgroundChange() {body.style.background =
     "linear-gradient(to right, "
     + color1.value
     + "," + color2.value + ")";
@@ -13,3 +13,11 @@ function backgroundChange () {body.style.background =
 color1.addEventListener("input", backgroundChange);
 
 color2.addEventListener("input", backgroundChange);
+
+const obj = {
+    player: "bobby",
+    name: "John",
+    wizardLevel : false
+}
+
+const greeting = `"hello" +${name}`
